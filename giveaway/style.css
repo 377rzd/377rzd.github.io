@@ -1,5 +1,6 @@
 html {
     height: 100%;
+    font-family: "Comic Sans MS";
   }
   body {
     display: flex;
@@ -47,3 +48,4 @@ html {
     transform: translateY(-50%);
     left: 25%;
   }
+  
