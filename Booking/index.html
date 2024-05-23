@@ -40,7 +40,7 @@
             transition:all 0.2s ease-in-out;
         }
         .nav-links > a:hover{
-            background-color: #a50000;
+            background-color: #a50000 !important;
             color: #8cacda;
         }
        
@@ -79,7 +79,7 @@
         <h3>Day pass: $49.99*</h3>
         <h3>Standard 1 bedroom: $99.99* per night</h3>
         <h3>Deluxe 2 bedroom: $159.99* per night</h3>
-        <h3>Alaskan king Honeymoon suite; $299.99* per night</h3>
+        <h3>Alaskan king Honeymoon suite: $299.99* per night</h3>
         <h6>*Other fees may apply at any point for any reason if deemed necessary</h6>
         <form>
             <label for="fname">First name:</label><br>
@@ -105,8 +105,10 @@
             <label for="Experation">Experation date (mm/yy):</label><br>
             <input type="text" id="Experation" name="Experation"><br>
             <label for="CVV">CVV number:</label><br>
-            <input type="text" id="CVV" name="CVV"><br>
-            <input type="submit">
+            <input type="text" id="CVV" name="CVV"><br><br>
+            <div class="nav-links">
+            <a href="/" style="background-color: #11233b;">Submit</a>
+            </div>
         </form>
     </div>
   </body>
