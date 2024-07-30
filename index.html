@@ -5,11 +5,30 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <group>
-            <object>
-                <embed src="./movie.swf" width="550" height="400" />
-            </object>
-        </group>
+        <table>
+            <tr>
+              <td class="swf">
+                <object>
+                    <embed src="./Ball.swf" width="550" height="400" />
+                </object>
+              </td>
+              <td style='color: black;'>padding</td>
+              <td class="swf">
+                <object>
+                    <embed src="./Water.swf" width="550" height="400" />
+                </object>
+              </td>
+            </tr>
+            <tr>
+                <td class="desc">
+                    <t>Ball</t>
+                </td>
+                <td style='color: black;'>padding</td>
+                <td class="desc">
+                    <t>Water</t>
+                </td>
+            </tr>
+          </table>
         <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
     </body>
 </html>
