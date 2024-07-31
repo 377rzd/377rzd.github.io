@@ -1,7 +1,7 @@
 html{
     background-color: black;
     font-family: "Comic Sans MS";
-    font-size: 2vw;
+    font-size: 1vw;
     color: white;
 }
 div.page{
@@ -32,6 +32,7 @@ li a:hover {
 }
 .active{
     background-color: rgb(108, 108, 108);
+    font-weight: bolder;
 }
 table.content{
     margin-left: auto;
@@ -54,4 +55,5 @@ td.desc{
     border-bottom-right-radius: 2vw;
     text-align: center;
     font-weight: bolder;
+    font-size: 2vw;
 }
