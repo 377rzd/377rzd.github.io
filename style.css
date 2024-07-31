@@ -14,7 +14,7 @@ ul {
     margin: 0;
     padding: 1vw;
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(75, 75, 75);
     border-radius: 2vw;
 } 
 li {
@@ -28,7 +28,10 @@ li a {
     text-decoration: none;
 }
 li a:hover {
-    background-color: #111;
+    background-color: rgb(108, 108, 108);
+}
+.active{
+    background-color: rgb(108, 108, 108);
 }
 table.content{
     margin-left: auto;
