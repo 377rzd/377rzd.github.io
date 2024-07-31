@@ -1,31 +1,54 @@
 html{
     background-color: black;
+    font-family: "Comic Sans MS";
+    font-size: 2vw;
+    color: white;
+}
+div.page{
     border-style: solid;
-    border-width: 20pt;
+    border-width: 4vw;
     border-color: black;
 }
-table{
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 1vw;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 2vw;
+} 
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+table.content{
     margin-left: auto;
     margin-right: auto;
 }
 td.swf{
     background-color: rgb(75, 75, 75);
     border-style: solid;
-    border-width: 20pt;
+    border-width: 2vw;
     border-color: rgb(75, 75, 75);
-    border-top-left-radius: 10pt;
-    border-top-right-radius: 10pt;
+    border-top-left-radius: 2vw;
+    border-top-right-radius: 2vw;
 }
 td.desc{
     background-color: rgb(108, 108, 108);
     border-style: solid;
-    border-width: 20pt;
+    border-width: 1vw;
     border-color: rgb(108, 108, 108);
-    border-bottom-left-radius: 10pt;
-    border-bottom-right-radius: 10pt;
-    font-family: "Comic Sans MS";
-    font-size: 24pt;
-    color: white;
+    border-bottom-left-radius: 2vw;
+    border-bottom-right-radius: 2vw;
     text-align: center;
     font-weight: bolder;
 }
