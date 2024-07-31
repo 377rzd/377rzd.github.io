@@ -26,6 +26,8 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 2vw;
+    border-radius: 2vw;
 }
 li a:hover {
     background-color: rgb(108, 108, 108);
