@@ -9,19 +9,6 @@
         <meta name="og:url" content="https://377rzd.github.io/flash/"/>
         <meta name="og:site_name" content="Blake's projects"/>
         <meta name="og:description" content="All of Blake's flash projects"/>
-        <script>
-          // Check whether the checkbox is checked
-          var isChecked = $("#alpha").is(":checked");
-
-          // If the checkbox is checked, do something
-          if (isChecked) {
-            document.getElementById("swfori").style.display = "none";
-            document.getElementById("swfalt").style.display = "inherit";
-          }else{
-            document.getElementById("swfori").style.display = "inherit";
-            document.getElementById("swfalt").style.display = "none";
-          }
-        </script>
     </head>
     <body>
         <ul class="nav">
@@ -51,6 +38,16 @@
                     </td>
                 </tr>
                 <tr>
+                  <td class="swf">
+                    <embed src="catapult.swf"/>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="desc">
+                    <t>Catapult</t>
+                  </td>
+                </tr>
+                <tr>
                   <td class="swfm">
                     <object>
                         <embed src="./Ball.swf"/>
@@ -75,21 +72,15 @@
                     </td>
                 </tr>
                 <tr>
-                  <td class="swfori">
+                  <td class="swfm">
                     <object>
                         <embed src="./catapult.swf"/>
                     </object>
                   </td>
                 </tr>
-                <tr class="swfalt">
-                  <object>
-                    <embed src="./catapultalt.swf"/>
-                  </object>
-                </tr>
                 <tr>
                     <td class="descm">
-                        <t>Catapult, press checkmark for transparent catapult </t>
-                        <input type="checkbox" id="alpha" name="alpha" value="alpha">
+                        <t>Catapult</t>
                     </td>
                 </tr>
             </table>
