@@ -1,3 +1,19 @@
+swfori{
+    background-color: rgb(75, 75, 75);
+    border-style: solid;
+    border-width: 2vw;
+    border-color: rgb(75, 75, 75);
+    border-top-left-radius: 2vw;
+    border-top-right-radius: 2vw;
+}
+swfalt{
+    background-color: rgb(75, 75, 75);
+    border-style: solid;
+    border-width: 2vw;
+    border-color: rgb(75, 75, 75);
+    border-top-left-radius: 2vw;
+    border-top-right-radius: 2vw;
+}
 @media screen and (orientation: landscape) {
     html{
             background-color: black;
