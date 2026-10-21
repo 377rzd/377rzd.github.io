@@ -14,6 +14,11 @@ swfalt{
     border-top-left-radius: 2vw;
     border-top-right-radius: 2vw;
 }
+a {
+    font-weight: bolder;
+    font-size: 3vw;
+    color: white;
+}
 @media screen and (orientation: landscape) {
     html{
             background-color: black;
